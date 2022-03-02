@@ -1,0 +1,76 @@
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0 0 0;
+}
+.conteiner {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(253, 255, 130);
+}
+.field {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: brown;
+}
+
+
+.modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(61, 59, 59, 0.308);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+.modal-dialog {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    border-radius: 41px 41px;
+}
+.modal-dialog__result {
+    color: aliceblue;
+    flex: 1 0 300px;
+    text-align: center;
+    font-size: 80px;
+    padding: 40px 0 0 0;
+}
+.modal-dialog__reset {
+    background-color: rgb(212, 79, 79);
+    box-shadow: 0 5px 0px #350808;
+    transition-duration: 0s;
+    position: relative;
+    top: 0;
+
+    height: 100px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.modal-dialog__reset:hover{
+    top: 2px;
+    box-shadow: 0 3px 0px #350808;
+    background-color: #ff0000;
+}
